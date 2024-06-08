@@ -8,8 +8,11 @@ Here, I use RandomQuoteGenerator API to get the quote every moment when clicking
 
 
 Additional Features:
+
 1.Copy the quote
+
 2.Share to the social Media
+
 3.toggle between dark and light mode
 
 
