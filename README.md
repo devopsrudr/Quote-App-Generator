@@ -1,6 +1,6 @@
 # Quote-App-Generator
 
-#live website link: https://task-jack.codedamn.app/
+#live website link: https://devopsrudr.github.io/Quote-App-Generator/
 
 #Hello there, welcome to the Quote-Generating-App. In this project, I build an app that generates a Quote using an API ,using only HTML5, CSS3 & JS to build this project.
 
