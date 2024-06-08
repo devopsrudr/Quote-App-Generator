@@ -1,0 +1,145 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  /* background-color: black; */
+  /* color: white; */
+  display: grid;
+  gap: 16px;
+  place-content: center;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+#title {
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.quote-box {
+  width: 400px;
+  padding: 16px;
+  border: solid 5px;
+  border-image: linear-gradient(45deg, purple, orange) 1;
+}
+
+
+#author {
+  float: right;
+  color: gray;
+  font-weight: bold;
+  font-style: em;
+}
+
+#btn{
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.7s ;
+  border: 2px;
+  background-color: black;
+  color: white;
+}
+
+#copyQuoteButton {
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.7s ;
+  border: 2px;
+  background-color: black;
+  color: white;
+
+}
+
+#copyQuoteButton:hover {
+  background-color: white;
+  color: black;
+
+}
+
+#shareTwitterButton {
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.7s ;
+  border: 2px;
+  background-color: black;
+  color: white;
+
+}
+
+#shareTwitterButton:hover {
+  background-color: white;
+  color: black;
+
+}
+
+#themeToggleButton {
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.7s ;
+  border: 2px;
+  background-color: black;
+  color: white;
+
+}
+
+#themeToggleButton:hover {
+  background-color: white;
+  color: black;
+}
+
+#btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode #quote-container {
+  background-color: #444;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-mode #quote-container {
+  background-color: #f0f0f0;
+}
