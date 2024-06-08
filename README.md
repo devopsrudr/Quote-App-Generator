@@ -2,7 +2,11 @@
 
 #live website link: https://devopsrudr.github.io/Quote-App-Generator/
 
-#Hello there, welcome to the Quote-Generating-App. In this project, I build an app that generates a Quote using an API ,using only HTML5, CSS3 & JS to build this project.Here, I use RandomQuoteGenerator API to get the quote every moment when clicking the generate button.
+#Hello there, welcome to the Quote-Generating-App. In this project, I build an app that generates a Quote using an API ,using only HTML5, CSS3 & JS to build this project.
+
+Here, I use RandomQuoteGenerator API to get the quote every moment when clicking the generate button.
+
+
 Additional Features:
 1.Copy the quote
 2.Share to the social Media
