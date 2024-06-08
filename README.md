@@ -4,6 +4,9 @@
 
 #Hello there, welcome to the Quote-Generating-App. In this project, I build an app that generates a Quote using an API ,using only HTML5, CSS3 & JS to build this project.
 
+Advance css animation is used to make the header  changing color every time.
+
+
 Here, I use RandomQuoteGenerator API to get the quote every moment when clicking the generate button.
 
 
